@@ -44,7 +44,7 @@ pip install -r requirements.txt
 # 3) Put your CSVs in ./data (see format below)
 
 # 4) Run model (writes per-instrument outputs under ./outputs)
-python prob_model.py --dx data/DX_4h.csv --eur data/6E_4h.csv --spot data/EURUSD_4h.csv --out outputs
+python main.py --dx data/DX_4h.csv --eur data/6E_4h.csv --spot data/EURUSD_4h.csv --out outputs
 
 # 5) Generate consolidated reports & plots
 python summary_report_plus.py --root outputs

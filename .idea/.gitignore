@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# Virtual environments
+.venv/
+.venv_*/
+venv/
+env/
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# ---- IDE (PyCharm, VSCode) ----
+.idea/
+.vscode/
+*.iml
+
+# ---- OS crap ----
+.DS_Store
+Thumbs.db
+
+# ---- Data ----
+# raw data files
+data/*.csv
+data/*.xlsx
+data/*.ods
+
+# outputs
+outputs/*.csv
+outputs/*.md
+outputs/*.png
+
+# Keep code but ignore generated outputs
+!outputs/.gitkeep
+
+# ---- Misc ----
+*.bak
+*.swp
